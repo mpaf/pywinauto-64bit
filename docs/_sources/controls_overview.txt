@@ -1,0 +1,428 @@
+====================
+Overview of Controls
+====================
+
+Windows has many controls, buttons, lists, etc
+
+
+------------
+All Controls
+------------
+  * CaptureAsImage_ 
+  * Click_
+  * ClickInput_
+  * Close_
+  * CloseClick_
+  * DebugMessage_
+  * DoubleClick_
+  * DoubleClickInput_
+  * DragMouse_
+  * DrawOutline_
+  * GetFocus_
+  * GetShowState_
+  * Maximize_
+  * MenuSelect_
+  * Minimize_
+  * MoveMouse_
+  * MoveWindow_
+  * NotifyMenuSelect_
+  * NotifyParent_
+  * PressMouse_
+  * PressMouseInput_
+  * ReleaseMouse_
+  * ReleaseMouseInput_
+  * Restore_
+  * RightClick_
+  * RightClickInput_
+  * RightClickInput_
+  * SendMessage_
+  * SendMessageTimeout_
+  * SetFocus_
+  * SetWindowText_
+  * TypeKeys_
+
+
+
+.. _CaptureAsImage: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#CaptureAsImage
+.. _Click: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Click
+.. _ClickInput: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#ClickInput
+.. _CloseClick: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#CloseClick
+.. _DebugMessage: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#DebugMessage
+.. _DoubleClick: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#DoubleClick
+.. _DoubleClickInput: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#DoubleClickInput
+.. _DragMouse: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#DragMouse
+.. _DrawOutline: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#DrawOutline
+.. _GetFocus: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#GetFocus
+.. _MenuSelect: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#MenuSelect
+.. _MoveMouse: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#MoveMouse
+.. _MoveWindow: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#MoveWindow
+.. _NotifyMenuSelect: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#NotifyMenuSelect
+.. _NotifyParent: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#NotifyParent
+.. _PressMouse: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#PressMouse
+.. _PressMouseInput: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#PressMouseInput
+.. _ReleaseMouse: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#ReleaseMouse
+.. _ReleaseMouseInput: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#ReleaseMouseInput
+.. _RightClick: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#RightClick
+.. _RightClickInput: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#RightClickInput
+.. _RightClickInput: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#RightClickInput
+.. _SendMessage: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#SendMessage
+.. _SendMessageTimeout: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#SendMessageTimeout
+.. _SetFocus: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#SetFocus
+.. _SetWindowText: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#SetWindowText
+.. _TypeKeys: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#TypeKeys
+.. _Close: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Close
+.. _Restore: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Restore
+.. _GetShowState: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#GetShowState
+.. _Maximize: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Maximize
+.. _Minimize: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Minimize
+
+
+
+
+  * Children_
+  * Class_
+  * ClientRect_
+  * ClientRects_
+  * ContextHelpID_
+  * ControlID_
+  * ExStyle_
+  * Font_
+  * Fonts_
+  * FriendlyClassName_
+  * GetProperties_
+  * HasExStyle_
+  * HasStyle_
+  * IsChild_
+  * IsDialog_
+  * IsEnabled_
+  * IsUnicode_
+  * IsVisible_
+  * Menu_
+  * MenuItem_
+  * MenuItems_
+  * Owner_
+  * Parent_
+  * PopupWindow_
+  * ProcessID_
+  * Rectangle_
+  * Style_
+  * Texts_
+  * TopLevelParent_
+  * UserData_
+  * VerifyActionable_
+  * VerifyEnabled_
+  * VerifyVisible_
+  * WindowText_
+
+.. _Children: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Children
+.. _Class: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Class
+.. _ClientRect: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#ClientRect
+.. _ClientRects: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#ClientRects
+.. _ContextHelpID: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#ContextHelpID
+.. _ControlID: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#ControlID
+.. _ExStyle: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#ExStyle
+.. _Font: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Font
+.. _Fonts: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Fonts
+.. _FriendlyClassName: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#FriendlyClassName
+.. _GetProperties: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#GetProperties
+.. _HasExStyle: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#HasExStyle
+.. _HasStyle: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#HasStyle
+.. _IsChild: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#IsChild
+.. _IsDialog: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#IsDialog
+.. _IsEnabled: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#IsEnabled
+.. _IsUnicode: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#IsUnicode
+.. _IsVisible: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#IsVisible
+.. _Menu: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Menu
+.. _MenuItem: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#MenuItem
+.. _MenuItems: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#MenuItems
+.. _Owner: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Owner
+.. _Parent: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Parent
+.. _PopupWindow: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#PopupWindow
+.. _ProcessID: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#ProcessID
+.. _Rectangle: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Rectangle
+.. _Style: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Style
+.. _Texts: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Texts
+.. _TopLevelParent: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#TopLevelParent
+.. _UserData: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#UserData
+.. _VerifyActionable: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#VerifyActionable
+.. _VerifyEnabled: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#VerifyEnabled
+.. _VerifyVisible: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#VerifyVisible
+.. _WindowText: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#WindowText
+
+
+
+
+Button, CheckBox, RadioButton, GroupBox
+---------------------------------------
+
+  * ButtonWrapper.Check_
+  * ButtonWrapper.GetCheckState_
+  * ButtonWrapper.SetCheckIndeterminate_
+  * ButtonWrapper.UnCheck_
+
+
+.. _ButtonWrapper.Check: class-pywinauto.controls.win32_controls.ButtonWrapper.html#Check
+.. _ButtonWrapper.GetCheckState: class-pywinauto.controls.win32_controls.ButtonWrapper.html#GetCheckState
+.. _ButtonWrapper.SetCheckIndeterminate: class-pywinauto.controls.win32_controls.ButtonWrapper.html#SetCheckIndeterminate
+.. _ButtonWrapper.UnCheck: class-pywinauto.controls.win32_controls.ButtonWrapper.html#UnCheck
+
+ComboBox
+---------------------------------------
+
+  * ComboBoxWrapper.DroppedRect_
+  * ComboBoxWrapper.ItemCount_
+  * ComboBoxWrapper.ItemData_
+  * ComboBoxWrapper.ItemTexts_
+  * ComboBoxWrapper.Select_
+  * ComboBoxWrapper.SelectedIndex_
+
+.. _ComboBoxWrapper.DroppedRect: class-pywinauto.controls.win32_controls.ComboBoxWrapper.html#DroppedRect
+.. _ComboBoxWrapper.ItemCount: class-pywinauto.controls.win32_controls.ComboBoxWrapper.html#ItemCount
+.. _ComboBoxWrapper.ItemData: class-pywinauto.controls.win32_controls.ComboBoxWrapper.html#ItemData
+.. _ComboBoxWrapper.ItemTexts: class-pywinauto.controls.win32_controls.ComboBoxWrapper.html#ItemTexts
+.. _ComboBoxWrapper.Select: class-pywinauto.controls.win32_controls.ComboBoxWrapper.html#Select
+.. _ComboBoxWrapper.SelectedIndex: class-pywinauto.controls.win32_controls.ComboBoxWrapper.html#SelectedIndex
+
+Dialog
+---------------------------------------
+
+  * DialogWrapper.ClientAreaRect_
+  * DialogWrapper.RunTests_
+  * DialogWrapper.WriteToXML_
+
+.. _DialogWrapper.ClientAreaRect: class-pywinauto.controls.win32_controls.DialogWrapper.html#ClientAreaRect
+.. _DialogWrapper.RunTests: class-pywinauto.controls.win32_controls.DialogWrapper.html#RunTests
+.. _DialogWrapper.WriteToXML: class-pywinauto.controls.win32_controls.DialogWrapper.html#WriteToXML
+
+Edit
+---------------------------------------
+
+  * EditWrapper.GetLine_
+  * EditWrapper.LineCount_
+  * EditWrapper.LineLength_
+  * EditWrapper.Select_
+  * EditWrapper.SelectionIndices_
+  * EditWrapper.SetEditText_
+  * EditWrapper.SetWindowText_
+  * EditWrapper.TextBlock_
+
+.. _EditWrapper.GetLine: class-pywinauto.controls.win32_controls.EditWrapper.html#GetLine
+.. _EditWrapper.LineCount: class-pywinauto.controls.win32_controls.EditWrapper.html#LineCount
+.. _EditWrapper.LineLength: class-pywinauto.controls.win32_controls.EditWrapper.html#LineLength
+.. _EditWrapper.Select: class-pywinauto.controls.win32_controls.EditWrapper.html#Select
+.. _EditWrapper.SelectionIndices: class-pywinauto.controls.win32_controls.EditWrapper.html#SelectionIndices
+.. _EditWrapper.SetEditText: class-pywinauto.controls.win32_controls.EditWrapper.html#SetEditText
+.. _EditWrapper.SetWindowText: class-pywinauto.controls.win32_controls.EditWrapper.html#SetWindowText
+.. _EditWrapper.TextBlock: class-pywinauto.controls.win32_controls.EditWrapper.html#TextBlock
+
+Header
+---------------------------------------
+
+  * HeaderWrapper.GetColumnRectangle_
+  * HeaderWrapper.GetColumnText_
+  * HeaderWrapper.ItemCount_
+
+.. _HeaderWrapper.GetColumnRectangle: class-pywinauto.controls.common_controls.HeaderWrapper.html#GetColumnRectangle
+.. _HeaderWrapper.GetColumnText: class-pywinauto.controls.common_controls.HeaderWrapper.html#GetColumnText
+.. _HeaderWrapper.ItemCount: class-pywinauto.controls.common_controls.HeaderWrapper.html#ItemCount
+
+ListBox
+---------------------------------------
+
+  * ListBoxWrapper.GetItemFocus_
+  * ListBoxWrapper.ItemCount_
+  * ListBoxWrapper.ItemData_
+  * ListBoxWrapper.ItemTexts_
+  * ListBoxWrapper.Select_
+  * ListBoxWrapper.SelectedIndices_
+  * ListBoxWrapper.SetItemFocus_
+
+.. _ListBoxWrapper.GetItemFocus: class-pywinauto.controls.win32_controls.ListBoxWrapper.html#GetItemFocus
+.. _ListBoxWrapper.ItemCount: class-pywinauto.controls.win32_controls.ListBoxWrapper.html#ItemCount
+.. _ListBoxWrapper.ItemData: class-pywinauto.controls.win32_controls.ListBoxWrapper.html#ItemData
+.. _ListBoxWrapper.ItemTexts: class-pywinauto.controls.win32_controls.ListBoxWrapper.html#ItemTexts
+.. _ListBoxWrapper.Select: class-pywinauto.controls.win32_controls.ListBoxWrapper.html#Select
+.. _ListBoxWrapper.SelectedIndices: class-pywinauto.controls.win32_controls.ListBoxWrapper.html#SelectedIndices
+.. _ListBoxWrapper.SetItemFocus: class-pywinauto.controls.win32_controls.ListBoxWrapper.html#SetItemFocus
+
+
+ListView
+---------------------------------------
+
+  * ListViewWrapper.Check_
+  * ListViewWrapper.ColumnCount_
+  * ListViewWrapper.Columns_
+  * ListViewWrapper.ColumnWidths_
+  * ListViewWrapper.GetColumn_
+  * ListViewWrapper.GetHeaderControl_
+  * ListViewWrapper.GetItem_
+  * ListViewWrapper.GetSelectedCount_
+  * ListViewWrapper.IsChecked_
+  * ListViewWrapper.IsFocused_
+  * ListViewWrapper.IsSelected_
+  * ListViewWrapper.ItemCount_
+  * ListViewWrapper.Items_
+  * ListViewWrapper.Select_
+  * ListViewWrapper.Deselect_
+  * ListViewWrapper.UnCheck_
+
+.. _ListViewWrapper.Check: class-pywinauto.controls.common_controls.ListViewWrapper.html#Check
+.. _ListViewWrapper.ColumnCount: class-pywinauto.controls.common_controls.ListViewWrapper.html#ColumnCount
+.. _ListViewWrapper.Columns: class-pywinauto.controls.common_controls.ListViewWrapper.html#Columns
+.. _ListViewWrapper.ColumnWidths: class-pywinauto.controls.common_controls.ListViewWrapper.html#ColumnWidths
+.. _ListViewWrapper.GetColumn: class-pywinauto.controls.common_controls.ListViewWrapper.html#GetColumn
+.. _ListViewWrapper.GetHeaderControl: class-pywinauto.controls.common_controls.ListViewWrapper.html#GetHeaderControl
+.. _ListViewWrapper.GetItem: class-pywinauto.controls.common_controls.ListViewWrapper.html#GetItem
+.. _ListViewWrapper.GetSelectedCount: class-pywinauto.controls.common_controls.ListViewWrapper.html#GetSelectedCount
+.. _ListViewWrapper.IsChecked: class-pywinauto.controls.common_controls.ListViewWrapper.html#IsChecked
+.. _ListViewWrapper.IsFocused: class-pywinauto.controls.common_controls.ListViewWrapper.html#IsFocused
+.. _ListViewWrapper.IsSelected: class-pywinauto.controls.common_controls.ListViewWrapper.html#IsSelected
+.. _ListViewWrapper.ItemCount: class-pywinauto.controls.common_controls.ListViewWrapper.html#ItemCount
+.. _ListViewWrapper.Items: class-pywinauto.controls.common_controls.ListViewWrapper.html#Items
+.. _ListViewWrapper.Select: class-pywinauto.controls.common_controls.ListViewWrapper.html#Select
+.. _ListViewWrapper.Deselect: class-pywinauto.controls.common_controls.ListViewWrapper.html#Deselect
+.. _ListViewWrapper.UnCheck: class-pywinauto.controls.common_controls.ListViewWrapper.html#UnCheck
+
+PopupMenu
+---------------------------------------
+(no extra visible methods)
+
+ReBar
+---------------------------------------
+
+  * ReBarWrapper.BandCount_
+  * ReBarWrapper.GetBand_
+  * ReBarWrapper.GetToolTipsControl_
+
+.. _ReBarWrapper.BandCount: class-pywinauto.controls.common_controls.ReBarWrapper.html#BandCount
+.. _ReBarWrapper.GetBand: class-pywinauto.controls.common_controls.ReBarWrapper.html#GetBand
+.. _ReBarWrapper.GetToolTipsControl: class-pywinauto.controls.common_controls.ReBarWrapper.html#GetToolTipsControl
+
+Static
+---------------------------------------
+(no extra visible methods)
+
+StatusBar
+---------------------------------------
+
+  * StatusBarWrapper.BorderWidths_
+  * StatusBarWrapper.GetPartRect_
+  * StatusBarWrapper.GetPartText_
+  * StatusBarWrapper.PartCount_
+  * StatusBarWrapper.PartRightEdges_
+
+.. _StatusBarWrapper.BorderWidths: class-pywinauto.controls.common_controls.StatusBarWrapper.html#BorderWidths
+.. _StatusBarWrapper.GetPartRect: class-pywinauto.controls.common_controls.StatusBarWrapper.html#GetPartRect
+.. _StatusBarWrapper.GetPartText: class-pywinauto.controls.common_controls.StatusBarWrapper.html#GetPartText
+.. _StatusBarWrapper.PartCount: class-pywinauto.controls.common_controls.StatusBarWrapper.html#PartCount
+.. _StatusBarWrapper.PartRightEdges: class-pywinauto.controls.common_controls.StatusBarWrapper.html#PartRightEdges
+
+TabControl
+---------------------------------------
+
+  * TabControlWrapper.GetSelectedTab_
+  * TabControlWrapper.GetTabRect_
+  * TabControlWrapper.GetTabState_
+  * TabControlWrapper.GetTabText_
+  * TabControlWrapper.RowCount_
+  * TabControlWrapper.Select_
+  * TabControlWrapper.TabCount_
+  * TabControlWrapper.TabStates_
+
+.. _TabControlWrapper.GetSelectedTab: class-pywinauto.controls.common_controls.TabControlBarWrapper.html#GetSelectedTab
+.. _TabControlWrapper.GetTabRect: class-pywinauto.controls.common_controls.TabControlBarWrapper.html#GetTabRect
+.. _TabControlWrapper.GetTabState: class-pywinauto.controls.common_controls.TabControlBarWrapper.html#GetTabState
+.. _TabControlWrapper.GetTabText: class-pywinauto.controls.common_controls.TabControlBarWrapper.html#GetTabText
+.. _TabControlWrapper.RowCount: class-pywinauto.controls.common_controls.TabControlBarWrapper.html#RowCount
+.. _TabControlWrapper.Select: class-pywinauto.controls.common_controls.TabControlBarWrapper.html#Select
+.. _TabControlWrapper.TabCount: class-pywinauto.controls.common_controls.TabControlBarWrapper.html#TabCount
+.. _TabControlWrapper.TabStates: class-pywinauto.controls.common_controls.TabControlBarWrapper.html#TabStates
+
+Toolbar
+---------------------------------------
+
+  * ToolbarWrapper.ButtonCount_
+  * ToolbarWrapper.GetButton_
+  * ToolbarWrapper.GetButtonRect_
+  * ToolbarWrapper.GetToolTipsControl_
+  * ToolbarWrapper.PressButton_
+
+.. _ToolbarWrapper.ButtonCount: class-pywinauto.controls.common_controls.ToolBarWrapper.html#ButtonCount
+.. _ToolbarWrapper.GetButton: class-pywinauto.controls.common_controls.ToolBarWrapper.html#GetButton
+.. _ToolbarWrapper.GetButtonRect: class-pywinauto.controls.common_controls.ToolBarWrapper.html#GetButtonRect
+.. _ToolbarWrapper.GetToolTipsControl: class-pywinauto.controls.common_controls.ToolBarWrapper.html#GetToolTipsControl
+.. _ToolbarWrapper.PressButton: class-pywinauto.controls.common_controls.ToolBarWrapper.html#PressButton
+
+ToolTips
+---------------------------------------
+
+  * ToolTipsWrapper.GetTip_
+  * ToolTipsWrapper.GetTipText_
+  * ToolTipsWrapper.ToolCount_
+
+.. _ToolTipsWrapper.GetTip: class-pywinauto.controls.common_controls.ToolTipsWrapper.html#GetTip
+.. _ToolTipsWrapper.GetTipText: class-pywinauto.controls.common_controls.ToolTipsWrapper.html#GetTipText
+.. _ToolTipsWrapper.ToolCount: class-pywinauto.controls.common_controls.ToolTipsWrapper.html#ToolCount
+
+TreeView
+---------------------------------------
+  
+  * TreeViewWrapper.EnsureVisible_
+  * TreeViewWrapper.GetItem_
+  * TreeViewWrapper.GetProperties_
+  * TreeViewWrapper.IsSelected_
+  * TreeViewWrapper.ItemCount_
+  * TreeViewWrapper.Root_
+  * TreeViewWrapper.Select_
+
+.. _TreeViewWrapper.EnsureVisible: class-pywinauto.controls.common_controls.TreeViewWrapper.html#EnsureVisible
+.. _TreeViewWrapper.GetItem: class-pywinauto.controls.common_controls.TreeViewWrapper.html#GetItem
+.. _TreeViewWrapper.GetProperties: class-pywinauto.controls.common_controls.TreeViewWrapper.html#GetProperties
+.. _TreeViewWrapper.IsSelected: class-pywinauto.controls.common_controls.TreeViewWrapper.html#IsSelected
+.. _TreeViewWrapper.ItemCount: class-pywinauto.controls.common_controls.TreeViewWrapper.html#ItemCount
+.. _TreeViewWrapper.Root: class-pywinauto.controls.common_controls.TreeViewWrapper.html#Root
+.. _TreeViewWrapper.Select: class-pywinauto.controls.common_controls.TreeViewWrapper.html#Select
+
+
+
+  *TreeViewElement* (returned by ``GetItem()`` and ``Root()``)
+
+	  * TreeViewElement.Children_
+	  * TreeViewElement.Item_
+	  * TreeViewElement.Next_
+	  * TreeViewElement.Rectangle_
+	  * TreeViewElement.State_
+	  * TreeViewElement.SubElements_
+	  * TreeViewElement.Text_
+
+.. _TreeViewElement.Children: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Children
+.. _TreeViewElement.Item: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Item
+.. _TreeViewElement.Next: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Next
+.. _TreeViewElement.Rectangle: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Rectangle
+.. _TreeViewElement.State: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#State
+.. _TreeViewElement.SubElements: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#SubElements
+.. _TreeViewElement.Text: class-pywinauto.controls.HwndWrapper.HwndWrapper.html#Text
+
+
+
+UpDown
+---------------------------------------
+
+  * UpDownWrapper.GetBase_
+  * UpDownWrapper.GetBuddyControl_
+  * UpDownWrapper.GetRange_
+  * UpDownWrapper.GetValue_
+  * UpDownWrapper.SetValue_
+  * UpDownWrapper.Increment_
+  * UpDownWrapper.Decrement_
+
+.. _UpDownWrapper.GetBase: class-pywinauto.controls.common_controls.UpDownWrapper.html#GetBase
+.. _UpDownWrapper.GetBuddyControl: class-pywinauto.controls.common_controls.UpDownWrapper.html#GetBuddyControl
+.. _UpDownWrapper.GetRange: class-pywinauto.controls.common_controls.UpDownWrapper.html#GetRange
+.. _UpDownWrapper.GetValue: class-pywinauto.controls.common_controls.UpDownWrapper.html#GetValue
+.. _UpDownWrapper.SetValue: class-pywinauto.controls.common_controls.UpDownWrapper.html#SetValue
+.. _UpDownWrapper.Increment: class-pywinauto.controls.common_controls.UpDownWrapper.html#Increment
+.. _UpDownWrapper.Decrement: class-pywinauto.controls.common_controls.UpDownWrapper.html#Decrement
+
+
+

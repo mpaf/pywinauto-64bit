@@ -1,0 +1,22 @@
+Metadata-Version: 1.0
+Name: pywinauto
+Version: 0.4.0
+Summary: pywinauto is a set of python modules to automate the Microsoft Windows GUI
+Home-page: http://sourceforge.net/projects/pywinauto
+Author: Mark Mc Mahon
+Author-email: mark.m.mcmahon@gmail.com
+License: LGPL
+Description: 
+        At it's simplest it allows you to send mouse and keyboard
+        actions to windows dialogs and controls, but It has support for more complex
+        controls also.
+        
+Keywords: windows automation gui GuiAuto
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
